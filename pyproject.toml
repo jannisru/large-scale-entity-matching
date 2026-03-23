@@ -5,20 +5,27 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "large-scale-entity-matching"
 version = "0.1.0"
-description = "Entity matching pipeline for large-scale datasets"
+description = "Scalable entity matching for large tabular datasets using ANN and fuzzy matching."
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
 authors = [
   { name = "Jannis Rudloff" }
 ]
+
 dependencies = [
-  "duckdb",
-  "pandas",
-  "numpy",
-  "pyarrow",
-  "sentence-transformers",
-  "faiss-cpu"
+  "duckdb>=1.5.0",
+  "pandas>=2.0",
+  "numpy>=1.26,<3",
+  "pyarrow>=15",
+  "sentence-transformers>=5.3.0",
+  "faiss-cpu>=1.13.0"
 ]
+
+[project.urls]
+Homepage = "https://github.com/jannisru/large-scale-entity-matching"
+Repository = "https://github.com/jannisru/large-scale-entity-matching"
+Issues = "https://github.com/jannisru/large-scale-entity-matching/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
