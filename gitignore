@@ -1,23 +1,19 @@
-# Python
+# Virtual environments
+.largematchingenv/
+venv/
+.env/
+
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
 
-# Virtual envs
-.venv/
-env/
-*.env
+# Jupyter
+.ipynb_checkpoints/
 
-# Build
-dist/
-build/
-*.egg-info/
-
-# OS
+# macOS
 .DS_Store
 
-# Work directories (wichtig für dein Projekt!)
-work/
-tmp/
-*.parquet
-*.csv
+# Build artifacts
+build/
+dist/
+*.egg-info/
