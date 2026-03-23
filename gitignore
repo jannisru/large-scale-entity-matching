@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+.venv/
+env/
+*.env
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Work directories (wichtig für dein Projekt!)
+work/
+tmp/
+*.parquet
+*.csv

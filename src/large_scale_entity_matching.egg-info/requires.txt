@@ -1,0 +1,6 @@
+duckdb
+pandas
+numpy
+pyarrow
+sentence-transformers
+faiss-cpu

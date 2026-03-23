@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: large-scale-entity-matching
+Version: 0.1.0
+Summary: Entity matching pipeline for large-scale datasets
+Author: Jannis Rudloff
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: duckdb
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pyarrow
+Requires-Dist: sentence-transformers
+Requires-Dist: faiss-cpu
+
+# large-scale-entity-matching
+
+Python package for large-scale entity matching with preprocessing, blocking, and scoring.
+Working on csv, excel and parquets data-files.
+
+## Installation
+
+```bash
+pip install -e .
