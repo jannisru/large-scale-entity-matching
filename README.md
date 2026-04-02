@@ -8,7 +8,6 @@ A Python library for scalable entity matching on large tabular datasets — buil
 |---|---|---|---|---|
 | US voter records | 15,000,000 | 10,000,000 | ~1.5 hours | ~1,500,000 |
 
-> Run on Google Colab (free tier). No dedicated hardware required.
 
 ---
 
