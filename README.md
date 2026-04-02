@@ -1,7 +1,7 @@
 # large-scale-entity-matching
 
-A Python library for scalable entity matching on large tabular datasets — built for datasets where brute-force comparison is not an option.
-Available via [![PyPI](https://img.shields.io/pypi/v/large-scale-entity-matching)](https://pypi.org/project/large-scale-entity-matching/)
+A Python library for scalable entity matching on large tabular datasets, built for datasets where brute-force comparison is not an option.
+Available via [![PyPI](https://img.shields.io/pypi/v/large-scale-entity-matching)](https://pypi.org/project/large-scale-entity-matching/).
 
 ## Benchmark
 
